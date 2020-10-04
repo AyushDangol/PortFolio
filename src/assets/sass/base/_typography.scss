@@ -1,0 +1,190 @@
+@mixin h1 {
+    @include rfs(2.25rem); //36px
+}
+@mixin h2 {
+    @include rfs(2rem); //32px
+}
+@mixin h3 {
+    @include rfs(1.728rem); //27.65px
+}
+@mixin h4 {
+    @include rfs(1.44rem); //23.04px
+}
+@mixin h5 {
+    @include rfs(1.125rem); //18px
+}
+@mixin h6 {
+    @include rfs(1rem); //16px
+}
+@mixin des {
+    @include rfs(0.875rem); //14px
+}
+@mixin small {
+    @include rfs(0.69rem); //11.11px
+}
+
+h1,
+.h1 {
+    @include h1;
+}
+h2,
+.h2 {
+    @include h2;
+}
+h3,
+.h3 {
+    @include h3;
+}
+h4,
+.h4 {
+    @include h4;
+}
+h5,
+.h5 {
+    @include h5;
+}
+h6,
+.h6 {
+    @include h6;
+}
+p,
+.des {
+    @include des;
+}
+small,
+.small {
+    @include small;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-light {
+    font-weight: 3 00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+p {
+    @include des;
+    color: $gray-50;
+    line-height: 27px;
+}
+
+.heading {
+    color: $white;
+    font-weight: 600;
+    text-align: left;
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+        @include h3();
+    }
+}
+
+//link
+
+.link {
+    &-more {
+        @include des;
+        color: $blue;
+        display: inline-block;
+        font-weight: 700;
+        @include hover {
+            color: $blue-100;
+        }
+
+        &_white {
+            color: white;
+            &:after {
+                background-color: white;
+            }
+        }
+    }
+    &-box {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        display: none;
+        i,
+        svg {
+            @include h4;
+            color: $blue;
+        }
+    }
+    &-learn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid $gray-200;
+        // box-shadow: rgba(black, 0.16);
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.75rem;
+        @include des;
+        span {
+            // display: none;
+            color: white;
+            @include des;
+            flex-grow: 1;
+            flex: none;
+            display: none;
+        }
+        @include media-breakpoint-down(md) {
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
+        }
+        @include hover {
+            background-color: $blue;
+            color: white;
+            transition: 0.2s;
+            padding: 0.75rem 1rem;
+            width: 150px;
+            border-radius: 1.5rem;
+            span {
+                display: block;
+                // color: white;
+            }
+            i,
+            svg {
+                color: white;
+                @include h4;
+                margin-left: 0.5rem;
+            }
+        }
+
+        i,
+        svg {
+            color: $blue;
+            @include h4;
+        }
+        &-hover {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            i,
+            svg {
+                color: white;
+                @include h4;
+            }
+        }
+    }
+}
+
+.title {
+    color: $info;
+    font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.scroll-to-top {
+    cursor: pointer;
+    position: fixed;
+    margin-right: 2rem;
+    bottom: 2rem;
+    right: 0%;
+    height: 2.8125rem;
+    width: 2.8125rem;
+    border-radius: 100%;
+    background-color: $secondary-color;
+    z-index: 1;
+
+    .icon {
+        font-size: 1.25rem;
+        animation: scrollTop 0.5s alternate ease infinite;
+    }
+
+    @keyframes scrollTop {
+        from {
+            transform: translateY(2px);
+        }
+        to {
+            transform: translateY(-1px);
+        }
+    }
+
+    &:hover {
+        background-color: $work;
+    }
+}

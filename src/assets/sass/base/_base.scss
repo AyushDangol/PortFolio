@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1920px;
+  margin: auto;
+}
+//root variables
+
+:root {
+  --sidebar-width: 375px;
+  @include media-breakpoint-down(sm) {
+    --sidebar-width: 320px;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: 0;
+
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+.container-fluid {
+  @include media-breakpoint-up(xl) {
+    padding: 0 2rem;
+  }
+}
+
+.section {
+  &--stories {
+    padding: 2rem 0;
+    background-color: rgba($blue, 0.04);
+  }
+}

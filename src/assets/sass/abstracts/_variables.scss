@@ -1,0 +1,106 @@
+// Ratios
+$double-octave: 4;
+$pi: 3.14159265359;
+$major-twelfth: 3;
+$major-eleventh: 2.666666667;
+$major-tenth: 2.5;
+$octave: 2;
+$major-seventh: 1.875;
+$minor-seventh: 1.777777778;
+$major-sixth: 1.666666667;
+$phi: 1.618034;
+$golden: $phi;
+$minor-sixth: 1.6;
+$fifth: 1.5;
+$augmented-fourth: 1.41421;
+$fourth: 1.333333333;
+$major-third: 1.25;
+$minor-third: 1.2;
+$major-second: 1.125;
+$minor-second: 1.066666667;
+
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+
+$input-btn-line-height: 1.2;
+
+//fonts
+$font-family-sans-serif: 'Poppins';
+// $font-family-sans-serif: "Public Sans", sans-serif;
+
+// $font-family-muli: "Muli";
+
+//colors
+$main-color: #3dd5c7;
+$secondary-color: #444950;
+$work: #292d3e;
+
+$blue: $main-color;
+$gray-600: $secondary-color;
+$gray-100: #1e2125;
+$info: $work;
+
+$gray-50: #666666;
+$gray-200: #eeeeee;
+$gray-300: #585858;
+$gray-400: #333333;
+$gray-500: #fbfbfb;
+$gray-700: #808080;
+$gray-800: #1e1e1e;
+
+$blue-100: #0e3dbf;
+$red: #e21f1f;
+$orange: #f26f21;
+$yellow: #ffc043;
+$green: #00a552;
+$border: #efefef;
+$dark: #121212;
+$black: #000000;
+
+$body-bg: #ffffff;
+
+//grid
+$grid-gutter-width: 24px !default;
+
+//input placeholder color
+$input-placeholder-color: rgba($gray-600, 0.48);
+
+//buttons
+
+//normal buttons
+$input-btn-padding-y: 0.5rem;
+$input-btn-padding-x: 0.75rem;
+$input-border-color: #d8d8d8;
+$input-border-radius: 4px;
+
+$btn-padding-y-sm: 0.5rem;
+$btn-padding-x-sm: 1.5rem;
+$btn-border-radius-sm: 1rem;
+
+$btn-padding-y: 0.875rem;
+$btn-padding-x: 2rem;
+//tooltips
+
+$tooltip-bg: $blue;
+$tooltip-font-size: 11.11px;
+$tooltip-opacity: 1;
+
+//dropdown
+$dropdown-link-hover-bg: $gray-200;
+$dropdown-link-active-bg: $blue;
+$dropdown-link-hover-color: $blue;
+$dropdown-border-radius: 0;
+$dropdown-min-width: 13.5rem;
+
+//background color
+
+//breakpoint
+$grid-breakpoints: (
+    xxs: 345px,
+    xs: 375px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1366px,
+);
