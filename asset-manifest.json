@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.b6657e93.chunk.css",
-    "main.js": "/PortFolio/static/js/main.5edded10.chunk.js",
-    "main.js.map": "/PortFolio/static/js/main.5edded10.chunk.js.map",
+    "main.css": "/PortFolio/static/css/main.86ea6e50.chunk.css",
+    "main.js": "/PortFolio/static/js/main.b87fc8ef.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.b87fc8ef.chunk.js.map",
     "runtime-main.js": "/PortFolio/static/js/runtime-main.7f9fc357.js",
     "runtime-main.js.map": "/PortFolio/static/js/runtime-main.7f9fc357.js.map",
     "static/css/2.5bdb7e52.chunk.css": "/PortFolio/static/css/2.5bdb7e52.chunk.css",
-    "static/js/2.8a4e4e35.chunk.js": "/PortFolio/static/js/2.8a4e4e35.chunk.js",
-    "static/js/2.8a4e4e35.chunk.js.map": "/PortFolio/static/js/2.8a4e4e35.chunk.js.map",
+    "static/js/2.5f3d40a0.chunk.js": "/PortFolio/static/js/2.5f3d40a0.chunk.js",
+    "static/js/2.5f3d40a0.chunk.js.map": "/PortFolio/static/js/2.5f3d40a0.chunk.js.map",
     "index.html": "/PortFolio/index.html",
-    "precache-manifest.7bb1c780ac5aa5e4c66d1d84004aecf2.js": "/PortFolio/precache-manifest.7bb1c780ac5aa5e4c66d1d84004aecf2.js",
+    "precache-manifest.11e1440726096c25842bd0b5d248cf37.js": "/PortFolio/precache-manifest.11e1440726096c25842bd0b5d248cf37.js",
     "service-worker.js": "/PortFolio/service-worker.js",
     "static/css/2.5bdb7e52.chunk.css.map": "/PortFolio/static/css/2.5bdb7e52.chunk.css.map",
-    "static/css/main.b6657e93.chunk.css.map": "/PortFolio/static/css/main.b6657e93.chunk.css.map",
-    "static/js/2.8a4e4e35.chunk.js.LICENSE.txt": "/PortFolio/static/js/2.8a4e4e35.chunk.js.LICENSE.txt",
+    "static/css/main.86ea6e50.chunk.css.map": "/PortFolio/static/css/main.86ea6e50.chunk.css.map",
+    "static/js/2.5f3d40a0.chunk.js.LICENSE.txt": "/PortFolio/static/js/2.5f3d40a0.chunk.js.LICENSE.txt",
     "static/media/FigmaTool.svg": "/PortFolio/static/media/FigmaTool.83330aec.svg",
     "static/media/Gitbash.svg": "/PortFolio/static/media/Gitbash.daae073b.svg",
     "static/media/JS.svg": "/PortFolio/static/media/JS.95c8748d.svg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.7f9fc357.js",
     "static/css/2.5bdb7e52.chunk.css",
-    "static/js/2.8a4e4e35.chunk.js",
-    "static/css/main.b6657e93.chunk.css",
-    "static/js/main.5edded10.chunk.js"
+    "static/js/2.5f3d40a0.chunk.js",
+    "static/css/main.86ea6e50.chunk.css",
+    "static/js/main.b87fc8ef.chunk.js"
   ]
 }
