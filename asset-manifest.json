@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.86ea6e50.chunk.css",
-    "main.js": "/PortFolio/static/js/main.0d0b6dc0.chunk.js",
-    "main.js.map": "/PortFolio/static/js/main.0d0b6dc0.chunk.js.map",
+    "main.js": "/PortFolio/static/js/main.289bbfd9.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.289bbfd9.chunk.js.map",
     "runtime-main.js": "/PortFolio/static/js/runtime-main.7f9fc357.js",
     "runtime-main.js.map": "/PortFolio/static/js/runtime-main.7f9fc357.js.map",
     "static/css/2.5bdb7e52.chunk.css": "/PortFolio/static/css/2.5bdb7e52.chunk.css",
     "static/js/2.f22768b9.chunk.js": "/PortFolio/static/js/2.f22768b9.chunk.js",
     "static/js/2.f22768b9.chunk.js.map": "/PortFolio/static/js/2.f22768b9.chunk.js.map",
     "index.html": "/PortFolio/index.html",
-    "precache-manifest.df626f8323796c2ee50f7c12e3a3ad91.js": "/PortFolio/precache-manifest.df626f8323796c2ee50f7c12e3a3ad91.js",
+    "precache-manifest.e138c708ea571920d3bec418975fd06e.js": "/PortFolio/precache-manifest.e138c708ea571920d3bec418975fd06e.js",
     "service-worker.js": "/PortFolio/service-worker.js",
     "static/css/2.5bdb7e52.chunk.css.map": "/PortFolio/static/css/2.5bdb7e52.chunk.css.map",
     "static/css/main.86ea6e50.chunk.css.map": "/PortFolio/static/css/main.86ea6e50.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/Gitbash.svg": "/PortFolio/static/media/Gitbash.daae073b.svg",
     "static/media/JS.svg": "/PortFolio/static/media/JS.95c8748d.svg",
     "static/media/TeamPlayer.svg": "/PortFolio/static/media/TeamPlayer.e287a444.svg",
-    "static/media/Travello-Thumbnail.png": "/PortFolio/static/media/Travello-Thumbnail.8e4c03e2.png",
+    "static/media/Travello-Thumbnail.png": "/PortFolio/static/media/Travello-Thumbnail.cbaf6031.png",
     "static/media/Vuejs.svg": "/PortFolio/static/media/Vuejs.4a46cb94.svg",
     "static/media/facebook-dark.svg": "/PortFolio/static/media/facebook-dark.e556718a.svg",
     "static/media/facebook.svg": "/PortFolio/static/media/facebook.0c005f2c.svg",
@@ -39,6 +39,6 @@
     "static/css/2.5bdb7e52.chunk.css",
     "static/js/2.f22768b9.chunk.js",
     "static/css/main.86ea6e50.chunk.css",
-    "static/js/main.0d0b6dc0.chunk.js"
+    "static/js/main.289bbfd9.chunk.js"
   ]
 }

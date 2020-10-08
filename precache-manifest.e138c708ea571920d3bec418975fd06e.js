@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "569c01139cc07b63472581e59b8d94f5",
+    "revision": "de7523171beee4242d6d1cd2a7409de5",
     "url": "/PortFolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortFolio/static/css/2.5bdb7e52.chunk.css"
   },
   {
-    "revision": "16fcdb9fc55062bdd939",
+    "revision": "4363a31c78d42b4d154e",
     "url": "/PortFolio/static/css/main.86ea6e50.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortFolio/static/js/2.f22768b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16fcdb9fc55062bdd939",
-    "url": "/PortFolio/static/js/main.0d0b6dc0.chunk.js"
+    "revision": "4363a31c78d42b4d154e",
+    "url": "/PortFolio/static/js/main.289bbfd9.chunk.js"
   },
   {
     "revision": "c7bbb472ec8175fc02a1",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortFolio/static/media/TeamPlayer.e287a444.svg"
   },
   {
-    "revision": "8e4c03e2c790339dd299314e762d8f90",
-    "url": "/PortFolio/static/media/Travello-Thumbnail.8e4c03e2.png"
+    "revision": "cbaf603178ff5996b698e2f6ea4706ea",
+    "url": "/PortFolio/static/media/Travello-Thumbnail.cbaf6031.png"
   },
   {
     "revision": "4a46cb94eb2bd345ddbf414b040f33e0",
